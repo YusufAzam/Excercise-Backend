@@ -1,11 +1,11 @@
 import express from 'express';
-import { User } from 'models/user-model';
+import { User } from '../models/user-model.js';
 
 export const router = express.Router();
 
 router.route('/').get((_, res)=>{
     User.find()
-    .then(() => res.json('User added!'))
+    .then((users) => res.json(users))
     .catch((err) => res.status(400).json('Error: ' + err));
 });
 

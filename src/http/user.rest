@@ -1,0 +1,11 @@
+### Request 1 Create user
+# POST http://localhost:5000/users/add
+# Content-Type: application/json
+
+# {
+#     "username": "YusufAzam"
+# }
+
+
+### Request 2 Get User data
+GET http://localhost:5000/users/

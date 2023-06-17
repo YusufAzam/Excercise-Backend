@@ -2,7 +2,7 @@ import  express from 'express';
 import  cors from 'cors';
 import { connectToMongoDb } from './connection.js';
 import dotenv from 'dotenv';
-import { router } from 'routes/users.js';
+import { router } from '../routes/users.js';
 
 dotenv.config();
 
@@ -16,7 +16,7 @@ connectToMongoDb();
 
 const userRouter = router;
 
-app.use('/excercise');
+//app.use('/excercise');
 app.use('/users', userRouter);
 
 app.listen(port, ()=> {
