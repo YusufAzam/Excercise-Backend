@@ -9,5 +9,9 @@
         "sourceType": "module"
     },
     "rules": {
+        "semi": 1,
+        "curly": [2, "multi-line"],
+        "comma-dangle": [2, "never"],
+        "no-whitespace-before-property": 2
     }
 }
