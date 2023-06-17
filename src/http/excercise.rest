@@ -1,0 +1,15 @@
+
+# POST http://localhost:5000/excercise/add
+# Content-Type: application/json
+
+# {
+#     "username": "YusufAzam",
+#     "description": "walking",
+#     "duration": 50,
+#     "date":  "2002-12-09"
+
+# }
+
+
+#request 2
+GET  http://localhost:5000/excercise/
