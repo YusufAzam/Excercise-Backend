@@ -1,4 +1,4 @@
-## Request 1 Create user
+##Create user
 POST http://localhost:5000/users/add
 Content-Type: application/json
 
@@ -7,5 +7,3 @@ Content-Type: application/json
 }
 
 
-## Request 2 Get User data
-GET http://localhost:5000/users/
