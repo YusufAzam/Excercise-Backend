@@ -1,0 +1,1 @@
+DELETE http://localhost:5000/excercise/648e2712bfdbd13916b6fdcf

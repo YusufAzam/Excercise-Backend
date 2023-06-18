@@ -1,0 +1,10 @@
+PUT http://localhost:5000/excercise/update/648e2712bfdbd13916b6fdcf
+Content-Type: application/json
+
+{
+    "username": "YusufAzam",
+    "description": "running",
+    "duration": 10,
+    "date":  "2020-06-18"
+
+}
